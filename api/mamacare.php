@@ -87,7 +87,6 @@ elseif ($text == "4") {
     $response .= "4. View My Reminders";
 }
 elseif (strpos($text, "4*") === 0) {
-    // Store reminder (in real implementation, this would connect to a database)
     $response = "END Your reminder has been set.\n";
     $response .= "You will receive SMS notifications\n";
     $response .= "on " . $phonenumber;
