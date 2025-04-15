@@ -20,7 +20,7 @@ if ($text == "") {
     $response .= "3. Emergency Contacts\n";
     $response .= "4. Health Reminders";
 } 
-// Handle Pregnancy Tips
+// Handle Pregnancy Tips during the various periods
 elseif ($text == "1") {
     $response = "CON Choose pregnancy tip category:\n";
     $response .= "1. First Trimester\n";
